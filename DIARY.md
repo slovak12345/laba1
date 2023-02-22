@@ -45,3 +45,40 @@
 
 16. Разделим приложение на разные уровни (сервисы, репозитории, контроллеры, модели, перечисления и т. д.), чтобы поддерживать чистоту архитектуры и кода.
 
+## DD.MM.YYYY Установка необходимых компонентов
+
+1. Установка MS Visual Studio Code
+
+2. Установка Java https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.msi ( sha256)
+
+3. Установка Maven https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.zip
+
+4. Установка необходимых расширений:
+
+	Name: Spring Boot Dashboard
+	Id: vscjava.vscode-spring-boot-dashboard
+	Description: Spring Boot Dashboard for VS Code
+	Version: 0.10.1
+	Publisher: Microsoft
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-boot-dashboard
+
+	Name: Spring Boot Extension Pack
+	Id: vmware.vscode-boot-dev-pack
+	Description: A collection of extensions for developing Spring Boot applications
+	Version: 0.2.1
+	Publisher: VMware
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack
+	
+	Name: Spring Boot Tools
+	Id: vmware.vscode-spring-boot
+	Description: Provides validation and content assist for Spring Boot `application.properties`, `application.yml` properties files. As well as Boot-specific support for `.java` files.
+	Version: 1.44.0
+	Publisher: VMware
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vmware.vscode-spring-boot
+
+	Name: Spring Initializr Java Support
+	Id: vscjava.vscode-spring-initializr
+	Description: A lightweight extension based on Spring Initializr to generate quick start Spring Boot Java projects.
+	Version: 0.11.2
+	Publisher: Microsoft
+	VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-spring-initializr
